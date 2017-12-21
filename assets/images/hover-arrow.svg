@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3651.871 5920.85 10.931 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #71aa17;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <path id="white_arrow" data-name="white arrow" class="cls-1" d="M5.844,1.5l4.631,4.631H1.5v.238h8.975L5.844,11h.337l4.75-4.75L6.181,1.5Z" transform="translate(3651.121 5920.1)"/>
+</svg>

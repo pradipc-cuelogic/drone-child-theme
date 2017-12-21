@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-718 4120 31 28">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #89d313;
+      }
+
+      .cls-2 {
+        fill: #89d313;
+        font-size: 15px;
+        font-family: FontAwesome;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_2678" data-name="Group 2678" transform="translate(-1099 2127)">
+    <g id="Rectangle_3285" data-name="Rectangle 3285" class="cls-1" transform="translate(381 1993)">
+      <rect class="cls-3" width="31" height="28"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="30" height="27"/>
+    </g>
+    <text id="_" data-name="" class="cls-2" transform="translate(389 2012)"><tspan x="0" y="0"></tspan></text>
+  </g>
+</svg>

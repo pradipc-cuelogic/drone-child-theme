@@ -1,0 +1,494 @@
+/*--------------------------------------------------------------
+    HEADER: NAV AND HERO (BANNER)
+--------------------------------------------------------------*/
+.site-header {
+    background: none;
+    z-index: 20;
+}
+.menu-top-nav-container,
+.menu-main-menu-container {
+    float: left;
+}
+
+.menu-top-nav-container .menu,
+.menu-main-menu-container .menu {
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.menu-top-nav-container .menu.navbar-nav,
+.menu-main-menu-container .menu.navbar-nav {
+    opacity: 1;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-inverse {
+    background: none;
+    border-bottom: 2px solid transparent;
+    padding: 30px 0 5px;
+    margin: 0;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-inverse .navbar-nav {
+    padding-top: 7px;
+}
+
+.navbar-inverse .navbar-nav>li {
+    padding: 5px 0 0;
+    margin: 0 15px 20px;
+}
+
+.navbar-inverse .navbar-nav>li:hover {
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    padding: 0;
+    background: none;
+    position: relative;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #fff;
+    display: block;
+    width: 1px;
+    opacity: 0;
+    margin: 0 auto;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-inverse:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    height: 0;
+    background: #fff;
+    margin: auto;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-inverse.nav-scroll {
+    padding: 15px 0 5px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-inverse.nav-scroll.nav-border {
+    border-bottom: 2px solid #F1F1F1;
+}
+
+.navbar-inverse.nav-scroll:before {
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-inverse.nav-scroll .brand-wrap {
+    width: 140px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar-inverse.nav-scroll .brand-wrap .logo {
+    display: none;
+}
+
+.navbar-inverse.nav-scroll .brand-wrap .logo-inverse {
+    display: block;
+}
+
+.navbar-inverse .sign-up-btn {
+    float: left;
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+    padding: 0 20px;
+}
+
+.navbar-inverse.nav-scroll .navbar-nav {
+    padding-top: 7px;
+}
+
+.navbar-inverse.nav-scroll .navbar-nav>li>a {
+    color: #44444D;
+}
+
+.navbar-inverse.nav-scroll .navbar-nav>li>a:after,
+.navbar-inverse.nav-scroll .navbar-nav>li>a:hover:after,
+.navbar-inverse.nav-scroll .navbar-nav>li.current-menu-item>a:after,
+.navbar-inverse.nav-scroll .navbar-nav>li.current-menu-item>a:hover:after,
+.navbar-inverse.nav-scroll .navbar-nav>li.current-menu-item>a:focus:after {
+    background: #44444D;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li.current-menu-item>a,
+.navbar-inverse .navbar-nav>li.current-menu-item>a:hover,
+.navbar-inverse .navbar-nav>li.current-menu-item>a:focus {
+    background: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover:after,
+.navbar-inverse .navbar-nav>li.current-menu-item>a:after,
+.navbar-inverse .navbar-nav>li.current-menu-item>a:hover:after,
+.navbar-inverse .navbar-nav>li.current-menu-item>a:focus:after {
+    opacity: 1;
+    width: 100%;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.brand-wrap {
+    width: 160px;
+    position: relative;
+    float: left;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.brand-wrap a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.brand-wrap a span img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.brand-wrap a span.logo {
+    display: block;
+}
+
+.brand-wrap a span.logo-inverse {
+    display: none;
+}
+
+.sub-menu {
+    background: #fff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    -webkit-transform: scale(.3) translateY(-16px);
+    transform: scale(.3) translateY(-16px);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    z-index: 2;
+    width: 210px;
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    background: #ffffff; //border: 2px solid #fff;
+}
+
+.nav-scroll .sub-menu {
+    box-shadow: 0 7px 12px 0px rgba(99, 99, 99, 0.20);
+    -webkit-box-shadow: 0 7px 12px 0px rgba(99, 99, 99, 0.20); //border: 2px solid #F1F1F1;
+}
+
+.sub-menu li {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(198, 198, 198, 0.3);
+}
+
+.sub-menu li:last-child {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.sub-menu li a {
+    color: #535353;
+    display: block;
+}
+
+.navbar-inverse .navbar-nav>li.menu-item-has-children {
+    cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav>li.menu-item-has-children.open .sub-menu {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(16px);
+    transform: scale(1) translateY(16px);
+}
+
+header .navbar-inverse .navbar-nav>li:hover>a,
+header .navbar-inverse .navbar-nav>li.current-menu-item>a,
+header .navbar-inverse .navbar-nav>li .sub-menu li.current_page_item>a,
+header .navbar-inverse .navbar-nav>li .sub-menu li a:hover,
+header .navbar-inverse .navbar-nav>li.current-menu-ancestor>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    color: #89D313;
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li.menu-item-has-children .icon-angle-down {
+    margin-left: 3px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.navbar-inverse .navbar-nav>li.menu-item-has-children.open .icon-angle-down {
+    transform: rotate(-180deg);
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.navbar-inverse .navbar-nav>li a::after {
+    display: none;
+}
+.navbar-inverse .navbar-toggle {
+    border: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+    height: 1px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 8px;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background: transparent;
+}
+
+.banner-wrap {
+    height: 530px;
+    display: block;
+    padding-top: 80px;
+}
+
+.page-template-default .banner-wrap,
+.page-template-home .banner-wrap,
+.page-template-news .banner-wrap,
+.page-template-insurance-credibility .banner-wrap,
+.page-template-help .banner-wrap{
+    background: url(../images/banner/default-banner-img.png) no-repeat center top;
+    background-size: 100% 100%;
+    height: 640px
+}
+
+.page-template-default .banner-wrap,
+.page-template-home .banner-wrap {
+    background: url(../images/banner/home-banner-bg.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.page-template-aboutUs .banner-wrap {
+    background: url(../images/banner/about-banner-img.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.page-template-contactUs .banner-wrap {
+    background: url(../images/banner/contact-banner-img.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.page-template-brokers .banner-wrap {
+    background: url(../images/banner/brokers-banner-img.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.page-template-pricing .banner-wrap {
+    background: url(../images/banner/pricing-banner-img.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+.page-template-partners .banner-wrap {
+    background: url(../images/banner/partnership-banner-img.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.page-template-careers .banner-wrap,
+.page-template-job-description .banner-wrap {
+    background: url(../images/banner/career-banner-img.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+.page-template-privacy .banner-wrap,
+.page-template-terms .banner-wrap {
+    background: url(../images/banner/banner-bg-lg.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+.banner-content-wrap,
+.banner-wrap .tag-line h2 {
+    display: none;
+    position: relative;
+}
+
+.banner-wrap .tag-line {
+    text-align: center;
+}
+
+.banner-wrap .tag-line h2 {
+    color: #fff;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.banner-wrap .tag-line.one-line h2 {
+    margin-top: 100px;
+}
+
+.page-template-default .banner-wrap h2.home,
+.page-template-home .banner-wrap h2.home,
+.page-template-default .banner-wrap h2.home,
+.page-template-home .banner-wrap h2.home,
+.page-template-pricing .banner-wrap h2.pricing,
+.page-template-brokers .banner-wrap h2.brokers,
+.page-template-partners .banner-wrap h2.partners,
+.page-template-aboutUs .banner-wrap h2.about-us,
+.page-template-insurance-credibility .banner-wrap h2.news,
+.page-template-news .banner-wrap h2.news,
+.page-template-contactUs .banner-wrap h2.contact,
+.page-template-careers .banner-wrap h2.careers,
+.page-template-job-description .banner-wrap h2.careers,
+.page-template-privacy .banner-wrap h2.privacy-policy,
+.page-template-help .banner-wrap h2.help,
+.page-template-terms .banner-wrap h2.terms,
+.page-template-partners .banner-wrap h2.partner,
+.page-template-default .banner-wrap .home-banner-content,
+.page-template-home .banner-wrap .home-banner-content,
+.page-template-brokers .banner-wrap .brokers-banner-content,
+.page-template-pricing .banner-wrap .pricing-banner-content,
+.page-template-partners .banner-wrap .partner-banner-content {
+    display: block;
+}
+
+.banner-wrap .banner-content-wrap h2,
+.banner-wrap .banner-content-wrap label,
+.banner-wrap .banner-content-wrap p,
+.banner-wrap .banner-content-wrap span {
+    color: #fff;
+    font-weight: normal;
+}
+
+.page-template-default .banner-wrap .home-banner-content,
+.page-template-home .banner-wrap .home-banner-content {
+    margin-top: 0;
+    padding-top: 110px;
+    text-align: left;
+}
+
+.page-template-default .banner-wrap .home-banner-content h2.home,
+.page-template-home .banner-wrap .home-banner-content h2.home {
+    margin: 0;
+}
+
+.page-template-default .banner-wrap .home-banner-content label {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.page-template-default .banner-wrap .home-banner-content .btn {
+    margin-top: 44px;
+}
+
+.page-template-default .banner-wrap .home-banner-content .banner-img {
+    position: absolute;
+    right: -130px;
+    top: 0;
+    height: 680px
+}
+
+.page-template-default .banner-wrap .home-banner-content .banner-img img {
+    max-height: 100%;
+}
+
+.page-template-brokers .banner-wrap .brokers-banner-content label, .page-template-pricing .banner-wrap .pricing-banner-content label, .page-template-partners .banner-wrap .partner-banner-content label {
+    font-size: 23px;
+    line-height: 32px;
+    display: block;
+}
+
+.page-template-brokers .banner-wrap .brokers-banner-content p, .page-template-pricing .banner-wrap .pricing-banner-content p, .page-template-partners .banner-wrap .partner-banner-content p {
+    margin: 30px 0;
+}
+
+.banner-wrap .brokers-banner-content h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.banner-wrap .pricing-banner-content h2, .banner-wrap .partner-banner-content h2{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.page-template-contactUs .banner-wrap  h2,
+.page-template-privacy .banner-wrap h2,
+.page-template-terms .banner-wrap h2.terms{
+    margin-top: 120px;
+}

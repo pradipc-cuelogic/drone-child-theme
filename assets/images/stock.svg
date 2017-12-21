@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10679.213 4949.52 120.688 116.269">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        fill: #377bd0;
+      }
+
+      .cls-1 {
+        opacity: 0.2;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 16px;
+        font-family: Lato-SemiBold, Lato;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Group_2694" data-name="Group 2694" transform="translate(10679.631 4949.402)">
+    <path id="Path_3980" data-name="Path 3980" class="cls-1" d="M58.135,0A58.135,58.135,0,1,1,0,58.135,58.135,58.135,0,0,1,58.135,0Z" transform="translate(4 0.118)"/>
+    <circle id="Ellipse_250" data-name="Ellipse 250" class="cls-1" cx="35.054" cy="35.054" r="35.054" transform="translate(27.081 23.198)"/>
+    <g id="stock_icon" data-name="stock icon" transform="translate(13.165 11.28) rotate(21)">
+      <path id="Path_3981" data-name="Path 3981" class="cls-2" d="M113.84,46.7,94.451,29.788,94,29.393l-.549.239L76.862,39.976l-20.135-19.7-.613-.992-.843.8L32.885,24.067,11.922,7.74,10.76,9.229,32.366,26.058l.644.5L33.6,26l22.132-3.743,19.954,19.41.428.7.751-.327L93.658,31.6,113.84,49.2Z" transform="translate(-8.871 -6.381)"/>
+      <path id="Path_3982" data-name="Path 3982" class="cls-3" d="M0,0,8.375,2.345,6.253,5.071,4.13,7.8Z"/>
+      <circle id="Ellipse_251" data-name="Ellipse 251" class="cls-2" cx="4.023" cy="4.023" r="4.023" transform="matrix(0.233, -0.972, 0.972, 0.233, 80.106, 27.09)"/>
+      <path id="Path_3983" data-name="Path 3983" class="cls-3" d="M390.292,339.32a4.023,4.023,0,1,0,4.025,4.024,4.023,4.023,0,0,0-4.025-4.024Z" transform="translate(-343.24 -328.956)"/>
+      <circle id="Ellipse_252" data-name="Ellipse 252" class="cls-2" cx="4.023" cy="4.023" r="4.023" transform="translate(20.054 14.909)"/>
+      <path id="Path_3984" data-name="Path 3984" class="cls-4" d="M0,.456Z" transform="matrix(0.987, -0.16, 0.16, 0.987, 43.923, 14.501)"/>
+    </g>
+    <text id="_" data-name="$" class="cls-5" transform="translate(57.987 28.597)"><tspan x="0" y="16">$</tspan></text>
+  </g>
+</svg>

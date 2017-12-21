@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="9032 515 930 600">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        opacity: 0.27;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.8px;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        stroke-linecap: square;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3186" data-name="Rectangle 3186" class="cls-1" width="930" height="600" transform="translate(495 180)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_148" data-name="Mask Group 148" class="cls-2" transform="translate(8537 335)">
+    <g id="Group_3064" data-name="Group 3064" class="cls-3" transform="translate(-118.549 -4943.247)">
+      <g id="Group_3061" data-name="Group 3061" transform="translate(1732.673 5439.741) rotate(90)">
+        <g id="Group_3060" data-name="Group 3060" transform="translate(0)">
+          <line id="Line_1005" data-name="Line 1005" class="cls-4" transform="translate(6.972 320.439)"/>
+          <line id="Line_1006" data-name="Line 1006" class="cls-4" x2="127.912" transform="translate(10.995 320.439)"/>
+          <line id="Line_1007" data-name="Line 1007" class="cls-4" transform="translate(140.784 320.439)"/>
+          <line id="Line_1008" data-name="Line 1008" class="cls-4" y1="307.621" transform="translate(140.784 12.818)"/>
+          <line id="Line_1009" data-name="Line 1009" class="cls-4" transform="translate(140.784 10.031)"/>
+          <g id="Group_3058" data-name="Group 3058" transform="translate(0 313.473)">
+            <path id="Path_4306" data-name="Path 4306" class="cls-4" d="M8.313,0,0,6.966l8.313,6.966Z"/>
+          </g>
+          <g id="Group_3059" data-name="Group 3059" transform="translate(134.08)">
+            <path id="Path_4307" data-name="Path 4307" class="cls-4" d="M0,11.982,6.7,0l6.7,11.982Z" transform="translate(0)"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3063" data-name="Group 3063" transform="translate(1400.596 5231)">
+        <line id="Line_1022" data-name="Line 1022" class="cls-5" y2="231.84" transform="translate(231.84 88.686) rotate(90)"/>
+        <line id="Line_1023" data-name="Line 1023" class="cls-5" y2="231.84" transform="translate(231.84 112.883) rotate(90)"/>
+        <line id="Line_1024" data-name="Line 1024" class="cls-5" y2="231.84" transform="translate(231.84 137.079) rotate(90)"/>
+        <g id="Rectangle_3185" data-name="Rectangle 3185" class="cls-4" transform="translate(45.134)">
+          <rect class="cls-6" width="216.665" height="333.897"/>
+          <rect class="cls-7" x="0.4" y="0.4" width="215.865" height="333.097"/>
+        </g>
+        <path id="Path_4309" data-name="Path 4309" class="cls-4" d="M508.124,385.039l.51-34.439H484.515l-.815,34.439,12.053-12.892Z" transform="translate(-414.455 -76.858)"/>
+        <line id="Line_1025" data-name="Line 1025" class="cls-5" x1="132.54" transform="translate(99.3 163.579)"/>
+        <line id="Line_1026" data-name="Line 1026" class="cls-5" x1="79.043" transform="translate(152.798 304.028)"/>
+      </g>
+    </g>
+  </g>
+</svg>

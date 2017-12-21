@@ -1,0 +1,219 @@
+/*--------------------------------------------------------------
+    PAGE ROW, WELL, BLUE WELL LAYOUT START
+--------------------------------------------------------------*/
+
+
+.page-wrapper .full-width-container {
+    padding: 0 8%;
+}
+
+.page-wrapper .full-width-container>.text-col-left,
+.page-wrapper .full-width-container>.text-col-right {
+    padding: 0 0 0 8%;
+}
+
+.page-wrapper .page-head {
+    border-bottom: 1px solid #d1d1d1;
+    overflow: hidden;
+    padding: 0 0 20px;
+}
+
+.page-wrapper .page-head h2 {
+    float: left;
+}
+
+.page-wrapper .page-head .btn {
+    float: right;
+}
+
+.page-wrapper .page-row {
+    text-align: center;
+    padding: 100px 0 0;
+}
+
+.page-wrapper .page-row>p {
+    padding: 30px 10%;
+    line-height: 26px;
+    color: #5C5D67;
+    margin: 0;
+}
+
+.page-wrapper .page-row .sm-para {
+    padding-top: 20px;
+}
+
+.page-wrapper .page-row .sm-para .ascend-logo {
+    width: 170px;
+}
+
+.page-wrapper .page-row .sm-para .rein-logo {
+    width: 110px;
+}
+
+.page-wrapper .page-row .well {
+    padding: 40px 15px;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    border-radius: 0;
+    background-color: #f8f8f8;
+}
+
+.page-wrapper .page-row .well p {
+    margin: 0;
+    display: inline-block;
+}
+
+.page-wrapper .page-row .well p img {
+    float: left;
+}
+.page-wrapper .page-row .well p.with-logo{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.page-wrapper .page-row .well p span {
+    padding: 0;
+    float: left;
+    text-align: left;
+    line-height: 26px;
+}
+
+.page-wrapper .page-row .well p span.lg-span {
+    padding: 0 30px;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 20px;
+}
+.page-wrapper .page-row .well p.with-btn span {
+        padding-right: 30px;
+    top: 6px;
+    position: relative
+}
+
+.page-wrapper .page-row .well.md-well {
+    padding: 30px 15px;
+}
+
+.page-wrapper .page-row .well.blue-well {
+    background: #377BD0;
+    color: #fff;
+    padding: 0;
+}
+
+.page-wrapper .page-row .well.blue-well p,
+.page-wrapper .page-row .well.blue-well span {
+    color: #fff;
+}
+
+.page-wrapper .page-row .well.blue-well p {
+    padding: 12px 80px 15px 0;
+    line-height: 26px;
+}
+
+.page-wrapper .page-row .well.blue-well .primary-title {
+    color: #fff;
+}
+
+.page-wrapper .page-row .well.blue-well .col-img.top {
+    margin-top: -50px;
+}
+
+.page-wrapper .page-row .well.blue-well .col-img.bottom {
+    margin-bottom: -50px;
+}
+
+.page-wrapper .page-row .well.blue-well .col-img.bottom img {
+    min-width: 100%;
+}
+
+.page-wrapper .page-row .link {
+    font-weight: bold;
+    color: #89D313;
+    padding-right: 24px;
+    background: url(../images/right-arrow.svg) no-repeat right 6px;
+    background-size: 12px auto;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.page-wrapper .page-row .link {
+    font-weight: bold;
+    color: #89D313;
+    padding-right: 24px;
+    background: url(../images/right-arrow.svg) no-repeat right 6px;
+    background-size: 12px auto;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.page-wrapper .page-row .link:hover,
+.office-address a:hover {
+    color: #71AA17;
+    background-image: url(../images/hover-arrow.svg);
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.page-wrapper .page-row .link i {
+    display: none;
+    width: 16px;
+    height: 12px;
+    background: url(../images/right-arrow.svg) no-repeat left center;
+    background-size: 100% 100%;
+    position: relative;
+    top: 3px;
+    left: 4px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.page-wrapper .page-row .link:hover i {
+    background-image: url(../images/hover-arrow.svg);
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.info-icon, .not-available-icon{
+    background: url(../images/info.svg) scroll left top no-repeat;
+    background-size: 100%;
+    width:18px;
+    height: 18px;
+    display: inline-block;
+}
+.info-icon, .not-available-icon{
+    background: url(../images/info.svg) scroll left top no-repeat;
+    background-size: 100%;
+}
+.not-available-icon{
+    background: url(../images/close-2.svg) scroll left top no-repeat;
+    background-size: 100%;
+}
+.disabled-btn{
+    opacity: 0.35;
+    pointer-events:none;
+    position: relative;
+}
+.disabled-btn:after{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom: 0;
+    background: #fff;
+    opacity: 0.10;
+    pointer-events:none;
+    border-radius: 100px;
+}

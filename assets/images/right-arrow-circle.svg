@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2567 1972 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #89d313;
+      }
+
+      .cls-2 {
+        fill: #89d313;
+        font-size: 29px;
+        font-family: FontAwesome;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_2155" data-name="Group 2155" transform="translate(2161 -1956)">
+    <g id="Ellipse_366" data-name="Ellipse 366" class="cls-1" transform="translate(406 3928)">
+      <circle class="cls-3" cx="16" cy="16" r="16"/>
+      <circle class="cls-4" cx="16" cy="16" r="15.5"/>
+    </g>
+    <text id="_" data-name="" class="cls-2" transform="translate(418 3953)"><tspan x="0" y="0"></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7714 -1009 102 37">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #44444d;
+      }
+
+      .cls-1 {
+        font-size: 32px;
+        font-family: Raleway-Bold, Raleway;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+        font-family: Raleway-Medium, Raleway;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Group_2960" data-name="Group 2960" transform="translate(7133 -3216)">
+    <text id="A" class="cls-1" transform="translate(581 2237)"><tspan x="0" y="0">A</tspan></text>
+    <text id="_STRONG_" data-name="(STRONG)" class="cls-2" transform="translate(617 2235.905)"><tspan x="0" y="0">(STRONG)</tspan></text>
+  </g>
+</svg>
